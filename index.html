@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote Eligibility</title>
+    <style>
+        #x{
+            height: 300px;
+            width: 300px;
+            background-image: url(data:image/jpeg;base64,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);
+            text-align: center;
+            padding-top: 20px;
+            font-family:Arial, Helvetica, sans-serif;
+            background-repeat: no-repeat; 
+            background-size: cover;
+
+        }
+        body{
+            padding: 150px;
+            background-color: greenyellow
+        }
+        #age{
+            background-color:chocolate
+        }
+        #check{
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <div id="x">
+    <h2>Vote Eligibility Checker</h2>
+    <input type="number" id="age" placeholder="enter your age">
+    <br><br>
+    <button id="check" onclick="checkVote()">Check</button>
+    <h3 id="result"></h3>
+    </div>
+    <script>
+        function checkVote(){
+        let age= document.getElementById("age").value;
+        age=Number(age);//convert string to number
+        if(age==0){
+            document.getElementById("result").innerHTML="please enter your age";
+        }
+        else if(age>=18){
+            document.getElementById("result").innerHTML="you are eligible to vote :)";
+        }
+        else{
+            document.getElementById("result").innerHTML="your not eligible to vote :()";
+        }
+        }
+    </script>
+</body>
+</html>
